@@ -14,7 +14,7 @@ class NavigateButton extends StatelessWidget {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 30.w),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10.r),
+        borderRadius: BorderRadius.circular(20.r),
         border: Border.all(color: Colors.grey),
       ),
       child: InkWell(
@@ -24,18 +24,19 @@ class NavigateButton extends StatelessWidget {
         ),
         child: Ink(
           child: Container(
-            margin: EdgeInsets.symmetric(horizontal: 10.w, vertical: 12.h),
+            margin: EdgeInsets.symmetric(horizontal: 16.w, vertical: 12.h),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   title,
-                  style: TextStyle(
-                    fontSize: 16.sp,
-                    fontWeight: FontWeight.w600,
-                  ),
+                  style: TextStyle(fontSize: 16.sp, color: Colors.white70),
                 ),
-                Icon(Icons.arrow_forward_ios_rounded, size: 18.h)
+                Icon(
+                  Icons.arrow_forward_ios_rounded,
+                  size: 18.h,
+                  color: Colors.white70,
+                )
               ],
             ),
           ),

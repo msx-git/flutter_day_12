@@ -2,6 +2,9 @@
 class Assets {
   Assets._();
 
+  static const String iconsDownload = 'assets/icons/download.svg';
+  static const String iconsDownloadSelected = 'assets/icons/download_selected.svg';
+  static const String iconsHome = 'assets/icons/home.svg';
   static const String movies1 = 'assets/images/movies/1.jpg';
   static const String movies10 = 'assets/images/movies/10.jpg';
   static const String movies11 = 'assets/images/movies/11.jpg';
